@@ -10,8 +10,10 @@
     --white: #FFFFFF;
     --orange: #EB9B00;
     --blue:#002F52;
+    --black: #000000;
     --gradient-blue: linear-gradient(97.54deg, #020052 35.49%, #326589 165.37%);
     --main-font: "Poppins";
+    --secondary-font: "Josefin Sans";
 }
 
 body {
