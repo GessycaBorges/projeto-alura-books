@@ -62,19 +62,7 @@
     text-transform: uppercase;
 }
 
-.container__button {
-    display: none;
-}
-
-.container__title {
-    display: none;
-}
-
-.options {
-    display: none;
-}
-
-.container__text {
+.container__button , .container__title , .options , .container__text {
     display: none;
 }
 
