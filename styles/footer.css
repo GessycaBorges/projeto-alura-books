@@ -33,6 +33,10 @@ hr {
         margin-left: 0.6em;
     }
 
+    .list-footer__link:hover{
+        color: var(--orange);
+    }
+
     .list-footer__title {
         font-size: 14px;
         color: var(--light-gray);

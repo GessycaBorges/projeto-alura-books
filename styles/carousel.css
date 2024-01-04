@@ -94,6 +94,10 @@
         width: 40%;
         margin: 2em auto;
     }
+
+    .buttons__anchor:active {
+        background-color: var(--blue);
+    }
 }
 
 @media screen and (min-width:1728px) {

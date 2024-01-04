@@ -7,6 +7,14 @@
     display: inline-block;
 }
 
+.container__button:checked ~ .container__label > .header__menu-burguer {
+    background-image: url("../img/Menu\ Aberto.svg");
+}
+
+.container__button:checked ~ .container__label {
+    background: var(--gradient-blue);
+}
+
 .header {
     background-color: var(--white);
     display: flex;
@@ -114,6 +122,24 @@
 
     .options__button {
         display: none;
+    }
+
+    .options__button:checked ~ .options__label > .options__item {
+        background: var(--gradient-blue);
+        color: var(--white);
+    }
+
+    .options__item {
+        padding: 2em 1em;
+    }
+
+    .menu-list__item:hover {
+        background: var(--gradient-blue);
+    }
+
+    .menu-list__item:hover > .menu-list__link {
+        -webkit-text-fill-color: var(--white);
+        text-decoration: none;
     }
 }
 

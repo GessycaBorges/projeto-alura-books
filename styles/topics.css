@@ -37,6 +37,11 @@
     .topics__link {
         font-size: 24px;
     }
+
+    .topics__link:hover {
+        color: var(--orange);
+        background-color: var(--white);
+    }
 }
 
 @media screen and (min-width:1728px) {
